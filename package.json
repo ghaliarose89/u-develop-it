@@ -2,7 +2,7 @@
   "name": "u-develop-it",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/ghaliarose89/u-develop-it#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "mysql2": "^2.3.2"
   },
   "devDependencies": {
     "jest": "^27.3.1"
