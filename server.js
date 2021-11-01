@@ -5,7 +5,9 @@ app.use (express.urlencoded({extended: false}));
 app.use (express.json);
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Star Wars Page!');
+    res.json({
+      message: 'Hello World'
+    });
   });
 
 app.use((req,res)=>{
